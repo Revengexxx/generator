@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Рабоч. Генератор случайных пользователей</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css" type="text/css">
+</head>
+<body>
+<div class="container">
+    <div class="row game-card align-items-center">
+        <div class="col col-md-6 offset-md-3">
+            <div class="card text-center">
+                <div class="card-header">
+                    <p class="m-0">Окно результатов генерации</p>
+                </div>
+                <div class="card-body">
+                    <div class="row">
+                        <div class="col colname">
+                            <h4 class="card-title">Фамилия:&nbsp&nbsp&nbsp<span id="surnameOutput">Генерация фамилии</span></h4>
+                            <h4>Имя:&nbsp&nbsp&nbsp<span id="firstNameOutput">Генерация имени</span></h4>
+                            <h4>Отчество:&nbsp&nbsp&nbsp<span id="middleNameOutput">Генерация отчества</span></h4>
+                            <p>
+                                Пол:&nbsp&nbsp<span id="genderOutput">Генерация пола</span><br>
+                                Дата рождения:&nbsp&nbsp<span id="birthDayOutput">&nbspГенерация дня</span>&nbsp&nbsp<span id="birthMonthOutput">месяца</span>&nbsp&nbsp<span id="birthYearOutput">года рождения</span><br>
+                                Профессия:&nbsp&nbsp<span id="occupationOutput">Генерация профессии</span>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <button id="myBtn1">Кнопка генерации</button>
+    <button id="myBtn2">Кнопка очистки</button>
+</div>
+<script src="personGenerator.js"></script>
+<script src="init.js"></script>
+</body>
+</html>
